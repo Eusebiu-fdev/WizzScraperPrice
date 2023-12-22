@@ -17,3 +17,11 @@ DATE, PRICE & TIME
 Later on, i'll be adding new elements. (Like Flight Time, Sold Out tickets, Price Alert Notification, etc.)
 
 GUI interface upcoming
+
+
+EDIT: 
+For Python 3.12.1 
+Distituls module is deprecated as per: https://docs.python.org/3.12/whatsnew/3.12.html
+
+Based on the migration advice below, packaging module is recommended for distutils.version.
+https://peps.python.org/pep-0632/#migration-advice
