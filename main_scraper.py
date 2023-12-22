@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import undetected_chromedriver as uc
 import random
 import pandas as pd
-import packaging
+import packaging # Adding as per https://docs.python.org/3.12/whatsnew/3.12.html | Module packaging is required for distituls.version
 
 # Headers
 user_agents = [
