@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import undetected_chromedriver as uc
 import random
 import pandas as pd
+import packaging
 
 # Headers
 user_agents = [
